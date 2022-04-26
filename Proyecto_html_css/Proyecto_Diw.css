@@ -1,0 +1,562 @@
+
+
+/*----------PAGINA PRINCIPAL------------*/
+html{
+   scroll-behavior: smooth;
+}
+footer{
+    padding: 100px;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(250,249,249);
+    width: 100%;
+}
+.principal{
+     margin-top: 180px;
+     width: auto;
+    
+}
+.portatil{
+     margin-left: 1000px;
+    height: 500px;
+    width: 500px;
+    margin-top: -250px
+}
+.encabezado{
+    margin-top: 100px;
+    
+}
+#logo a {
+    
+    text-decoration: none;
+    margin-left:100px;
+   
+    font-size: 20px;
+    padding: 50px;
+    font-weight: bolder;
+    color:black;
+    
+    
+}
+.menu{
+     margin-top: -100px;
+    position: fixed;
+    
+}
+.menu2{
+    position: fixed;
+     margin-top: -30px;
+}
+
+#logo a:hover{
+   color:rgb(104,164,146); 
+}
+
+ul{
+    
+   margin-left: 1200px;
+    margin-top: -20px;
+    display: flex;
+    
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+     padding-left:20px;
+    color:black;
+      width: auto;
+    
+    
+}
+
+ul li a:hover{
+    text-decoration: none;
+    font-size: 20px;
+     padding-left:20px;
+    color:rgb(104,164,146); 
+    
+    
+}
+ul li{
+    list-style: none;
+}
+
+h1{
+   
+   margin-left: 400px;
+    font-size: 80px;
+}
+
+
+.encabezado span {
+    font-size: 18px;
+    font-weight: bolder;
+}
+.encabezado p{
+    margin-left: 400px;
+    line-height : 8px;
+}
+
+/*----------zona2------------*/
+.zona2{
+    margin-top: 160px;
+      width: auto;
+}
+.zona2 a{
+    transition: 2s;
+}
+
+.zona2 div img{
+    height: 450px;
+    width: 600px;
+    border-radius: 10px;
+    transition: 2s;
+}
+.zona2 div img:hover{
+    height: 500px;
+    width: 650px;
+      transition: 2s;
+   
+}
+
+.unotres{
+    margin-left: 400px;
+    margin-right: 840px;
+   background-color: rgb(219,234,230);
+    padding: 20px;
+    border-radius: 10px;
+    line-height : 25px;
+    
+    width: auto;
+  
+}
+.unotres p{
+    width: auto;
+    height: auto;
+    }
+
+#dos{
+    margin-left: 1000px; 
+    margin-top: 50px;
+     margin-bottom: 50px;
+     padding: 20px;
+    margin-right: 250px;
+    background-color: rgb(241,240,224);
+    border-radius: 10px;
+     line-height : 25px;
+     width: auto;
+  
+}
+
+#dos p{
+    width: auto;
+    height: auto;
+    }
+
+#miProyecto {
+   text-align: center;
+    padding: 30px;
+    
+}
+
+/*----------zona3------------*/
+.zona3{
+    margin-top: 300px;
+    width: auto;
+}
+.ilustracion{
+    margin-top: -300px;
+}
+.descripcion{
+    margin-top: -60px;
+    margin-left: 900px;
+    padding: 100px;
+    text-align: justify;
+    font-size: 20px;
+    
+}
+   .texto{
+        width: auto;
+    }
+.gridPrincipal{
+     display: grid;
+    margin-top: -200px;
+    margin-left: 500px;
+            justify-content:center;
+            grid-template-columns: 400px 400px ;
+            grid-template-rows: 400px ;
+            grid-column-gap: 60px;
+            padding-top: 100px;
+}
+.conocimientos{
+     margin-left: 400px;
+    margin-right: 840px;
+     font-size: 20px;
+
+    
+}
+.front{
+       grid-column: 1/2 ;
+     grid-row: 1;
+      border: 1px solid;
+    padding: 2px;
+   
+    text-align: center;
+    background-color: black;
+    color:white;
+     border-radius: 15px;
+    transition: 2s;
+}
+.front:hover{
+    background-color:#63FFBE; 
+    transform:scale(1.1, 1.1);
+    color: black;
+}
+.back:hover{
+    background-color:#63FFBE; 
+    transform:scale(1.1, 1.1);
+     color: black;
+}
+
+.front div img{
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: white;
+  
+}
+.back div img{
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: white;
+  
+}
+.back{
+      grid-column: 2/2 ;
+     grid-row: 1;
+    
+     border: 1px solid;
+    text-align: center;
+     
+     border-radius: 15px;
+    background-color: black;
+    color:white;
+    padding-top: 1px;
+    padding-bottom: 65px;
+     transition: 2s;
+}
+.zona3 img{
+    margin-left: -700px;
+    height: 450px;
+    width: 700px;
+    border-radius: 7px;
+}
+.texto{
+    margin-top: -50px;
+    font-size: 25px;
+    padding: 50px;
+}
+.descripcion h2{
+    text-align: center;
+    
+}
+.descripcion{
+   
+}
+/*----------zona4------------*/
+
+.zona4{
+     margin-top: 500px;
+        background-image: url(img/fondo_pagina.png);
+    background-repeat: repeat-x;
+    padding: 80px;
+    
+}
+.zona4 h2{
+     font-size: 60px;
+     margin-left: 400px;
+     transition: 2s;
+
+}
+.zona4 h2:hover{
+   color: cadetblue;
+   transform: scale(1.2); 
+}
+
+.experiencia{
+     margin-left: 400px;
+      font-size: 20px;
+      transition: 2s;
+    
+}
+
+.experiencia:hover{
+    transform: scale(1.1, 1.1);
+}
+.experiencia h3 , .estudios h3{
+     font-size: 30px;
+}
+.experiencia h4 , .estudios h4 {
+     font-size: 25px;
+}
+
+.estudios{
+     margin-top: -438px;
+     margin-left: 1000px;
+     font-size: 20px;
+     transition: 2s;
+}
+
+.estudios:hover{
+     transform: scale(1.1, 1.1);
+}
+.zona4 iframe{
+    height: 400px
+}
+
+
+
+/*----------zona5------------*/
+
+.zona5{
+    margin: 300px;
+    width: auto;
+   
+}
+
+.zona5 div{
+    margin-left:350px;
+    padding: 5px;
+    margin-right: 50px;
+    
+}
+.zona5 h2{
+    font-size: 40px;
+}
+.boton {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 170px;
+    
+   
+        
+}
+.boton:hover{
+    background-color:rgb(104,164,146); 
+    color: black;
+    font-weight: bolder;
+}
+.footer_pagina_principal{
+    margin-left:580px;
+}
+
+/*----------zona6------------*/
+.encabezado2{
+    margin-top: 100px;
+    
+}
+.titulo_principal{
+    padding: 150px;
+    	background-attachment:scroll;
+   background-image: url(img/lombok/portada_lombok.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+  
+}
+.titulo_principal h1 , .titulo_principal_Aesop h1 , .titulo_principal_Muuto h1{
+    margin-left: 260px;
+}
+
+/*----------zona7 LOMBOK------------*/
+.sobre_proyecto h2 ,.diseño_movil h2 ,.videos_aesop h2 ,.videos_muuto h2{
+     margin-top: 100px;
+   margin-left:100px;
+    font-size: 40px;
+}
+.sobre_proyecto p{
+     margin-left:100px;
+    font-size: 20px;
+    margin-right: 300px;
+}
+
+.grid{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 800px 700px ;
+            grid-template-rows: 700px 700px;
+            grid-column-gap: 40px;
+           
+            padding: 100px;
+   
+                               
+        }
+.foto1 img{
+    background-attachment:scroll;
+    margin-top: 150px;
+      grid-column: 1/2 ;
+     grid-row: 1;
+    height: 700px;
+    width: 800px;
+   
+   
+}
+.foto2 img{
+    background-attachment:scroll;
+     grid-column: 2/2 ;
+     grid-row: 1;
+      height: 500px;
+    width: 600px;
+    
+   
+}
+.foto3 img{
+    background-attachment:scroll;
+    margin-top: -100px;
+    margin-left: 840px;
+      grid-column: 2/2 ;
+     grid-row: 1;
+      height: 500px;
+     width: 600px;
+    
+}
+
+.diseño_movil{
+    margin-top: -500px;
+}
+.foto4 img{
+    background-attachment:scroll;
+    margin-top: 211px;
+      grid-column: 1/2 ;
+     grid-row: 1;
+      height: 500px;
+     width: 600px;
+    
+}
+.foto5 img{
+   margin-top: -500px;
+      grid-column: 2/2 ;
+     grid-row: 1;
+      height: 500px;
+     width: 650px;
+    
+}
+.boton2{
+    margin-top: -700px;
+    margin-left: 650px;
+}
+.footer_lombok{
+    margin-top: 400px;
+}
+
+/*----------zona8:AESOP------------*/
+.titulo_principal_Aesop{
+    padding: 150px;
+    	background-attachment:scroll;
+   background-image: url(img/aesop/fondo_aesop.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+  
+}
+.foto6 img ,.foto7 img{
+    padding-top: 100px;
+    padding-left: 80px;
+    border-radius: 10px;
+    margin-left: 450px;
+    width: auto;
+   
+}
+.videos_aesop{
+    margin-top: 300px;
+     width: auto;
+}
+
+.videos_aesop p , .videos_muuto p{
+    padding: 15px;
+    margin-left:100px;
+    margin-right: 1000px;
+    font-size: 20px;
+    text-align:left;
+     width: auto;
+}
+
+.foto8 img , .videos_muuto img{
+    margin-left: 1010px;
+    margin-top: -300px;
+        border-radius:10px;
+}
+
+.boton3{
+    padding: 100px;
+    margin-top: -300px;
+}
+
+/*----------zona9:MUUTO------------*/
+.titulo_principal_Muuto{
+    padding: 150px;
+    	background-attachment:scroll;
+   background-image: url(img/muuto/pagina_principal.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  
+}
+
+
+.grid2{
+            display: grid;
+            justify-content:center;
+            grid-template-columns: 700px 700px ;
+            grid-template-rows: 700px ;
+            grid-column-gap: 40px;
+            padding-top: 100px;
+    
+   
+                               
+        }
+.foto9 img{
+     grid-column: 1/2 ;
+     grid-row: 1;
+}
+.foto10 img{
+     grid-column: 2/2 ;
+     grid-row: 1;
+    
+}
+
+
+.videos_muuto button{
+   margin-top:  50px;
+   margin-left: 5000px;
+    
+}
+.boton4 {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 130px;
+    margin-top: -100px;
+    
+   
+        
+}
+.boton:hover{
+    background-color:rgb(104,164,146); 
+    color: black;
+    font-weight: bolder;
+}
